@@ -112,7 +112,7 @@ function check() {
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('https://media1.giphy.com/media/12fcg1WrcQpXdS/200.gif')";
         
-    } else if (halloween === "halloween town") {
+    } else if (halloween === "halloween town" || halloween === "halloweentown") {
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('http://66.media.tumblr.com/6f48df4236e41f8299a6451f66152530/tumblr_oej5slwUdW1rp0vkjo1_500.gif')";
         
