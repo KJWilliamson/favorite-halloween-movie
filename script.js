@@ -110,7 +110,7 @@ function check() {
         
     } else if (halloween === "et" || halloween === "E.T. the Extra-Terrestrial" || halloween === "e.t.") {
         document.querySelector("#placeToSee").innerText = "";
-        document.querySelector("body").style.backgroundImage = "url('https://media1.giphy.com/media/12fcg1WrcQpXdS/200.gif')";
+        document.querySelector("body").style.backgroundImage = "url('https://c.tenor.com/G32FcxqlPHsAAAAd/et-the-extra-terrestrial-et-yoda.gif')";
         
     } else if (halloween === "halloween town" || halloween === "halloweentown") {
         document.querySelector("#placeToSee").innerText = "";
