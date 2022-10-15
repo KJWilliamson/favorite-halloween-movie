@@ -30,17 +30,24 @@ h2 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-#halloween {
-  color: black;
+.favorite {
+  color: purple;
+  font-family: 'Mystery Quest', cursive;
 }
+
 
 .orange {
     color: orange;
+    font-family: 'Mystery Quest', cursive;
 }
 
 #check {
     color: orange;
+}
+
+.familyFriendly {
+  color: limegreen;
+  font-family: 'Creepster', cursive;
 }
 
 @media screen and (max-width: 800px) {
