@@ -1,4 +1,4 @@
-## What's your Favorite family friendly Halloween movie? built with HTML, CSS, and Javascript.
+## What's Your Favorite Family Friendly Halloween Movie? Built with HTML, CSS, and Javascript.
 * User enters title and if it's in the database it shows a gif from the movie.
 
 
