@@ -104,6 +104,11 @@ function check() {
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('https://c.tenor.com/T8D6Fr3mEocAAAAd/the-witches-anjelica-huston.gif')";
         
+    } else if (halloween_movies === "miss peregrine's home for peculiar children") {
+        
+        document.querySelector("#placeToSee").innerText = "";
+        document.querySelector("body").style.backgroundImage = "url('https://thumbs.gfycat.com/FavoriteAcademicKawala-size_restricted.gif')";
+        
     } else if (halloween === "wizard of oz") {
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('https://media4.giphy.com/media/LqxTooUoC5oo8BBd17/giphy.gif?cid=6c09b9529173aeb393c96979ceeb8dec4e3e17a810e3a21b&rid=giphy.gif&ct=g')";
