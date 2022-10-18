@@ -7,12 +7,12 @@ halloweenMovie.addEventListener("keydown", function(e) {
     }
 })
 
-const halloween = "It's the Great Pumpkin Charlie Brown";
+const halloween = "It's the Great Pumpkin, Charlie Brown";
 function check() {
     const halloween = document.querySelector("#halloween").value.toLowerCase();
 
     // conditionals
-    if(halloween === "it's the great pumpkin, charlie brown" || halloween === "it's the great pumpkin charlie brown") {
+    if(halloween === "It's the Great Pumpkin, Charlie Brown" || halloween === "It's the Great Pumpkin Charlie Brown") {
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('https://media0.giphy.com/media/3o6Zt2qfZ4kOq8Ww6s/giphy.gif')";
     
@@ -104,7 +104,7 @@ function check() {
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('https://c.tenor.com/T8D6Fr3mEocAAAAd/the-witches-anjelica-huston.gif')";
         
-    } else if (halloween_movies === "miss peregrine's home for peculiar children") {
+    } else if (halloween === "miss peregrine's home for peculiar children") {
         
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('https://thumbs.gfycat.com/FavoriteAcademicKawala-size_restricted.gif')";
