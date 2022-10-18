@@ -1,7 +1,12 @@
+/* @viewport {
+  width: device-width;
+  zoom: 1.0;
+} */
+
 body {
     margin-top: 400px;
     background-repeat: no-repeat;
-    background-size: 1488px;
+    background-size: 100%;
     background-color: black;
 }
 
@@ -50,7 +55,23 @@ h2 {
   font-family: 'Creepster', cursive;
 }
 
-@media screen and (max-width: 800px) {
+
+/* @media screen and (max-width: 873px) {
+
+
+  body {
+      margin-top: 240px;
+      background-size: cover;
+  }
+
+  h2 {
+      font-size: 1.5rem;
+  }
+
+}
+
+
+@media screen and (max-width: 680px) {
 
 
     body {
@@ -62,6 +83,10 @@ h2 {
         font-size: 1.5rem;
     }
 
-}
+}  
 
 
+
+
+
+ */
