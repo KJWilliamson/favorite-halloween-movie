@@ -4,7 +4,7 @@
 } */
 
 body {
-    margin-top: 400px;
+    margin-top: 370px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: black;
@@ -28,6 +28,7 @@ button {
 }
 
 h2 {
+  margin-top: 20px;
   font-size: 40px;
   color: white;
   font-weight: bold;
@@ -54,8 +55,6 @@ h2 {
   color: limegreen;
   font-family: 'Creepster', cursive;
 }
-
-
 /* @media screen and (max-width: 873px) {
 
 
