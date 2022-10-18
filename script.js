@@ -225,8 +225,8 @@ function check() {
         document.querySelector("#placeToSee").innerText = "";
         document.querySelector("body").style.backgroundImage = "url('https://media3.giphy.com/media/6iTw8GatNqAlW/giphy.gif')";
         
-    } else if (halloween === "pee wee's big adventure") {
-        document.querySelector("#placeToSee").innerText = "";
+    } else if (halloween === "pee wee's big adventure" || halloween === "pee wees big adventure") {
+        document.querySelector("#placeToSee").innerText = "Tell 'em Large Marge sent ya.";
         document.querySelector("body").style.backgroundImage = "url('http://38.media.tumblr.com/51c6bf0c8d96a87140a042971aa0625d/tumblr_ng2s0mWLGU1rp0vkjo1_500.gif')";
         
     } else {
