@@ -10,6 +10,19 @@ body {
     background-color: black;
 }
 
+::-webkit-input-placeholder {
+  font-weight: bolder;
+  color: orange;
+}
+
+label {
+  font-weight: bolder;
+}
+
+input {
+  font-weight: bolder;
+}
+
 h1,
 h2,
 form {
